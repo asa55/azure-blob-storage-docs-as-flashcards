@@ -1,6 +1,6 @@
 # azure-blob-storage-docs-as-flashcards
 
-Instructions to download [the Anki flashcard deck can be found by clicking here](https://github.com/asa55/azure-storage-blobs-docs-as-flashcards/releases/), or by navigating to the Releases area of this project. To see what content will be added in the future, [check out this project's Roadmap by clicking here](https://github.com/users/asa55/projects/3). 
+Instructions to download [the Anki flashcard deck can be found by clicking here](https://github.com/asa55/azure-storage-blobs-docs-as-flashcards/releases/), or by navigating to the Releases area of this project. To see what content will be added in the future, [check out this project's Roadmap by clicking here](https://github.com/users/asa55/projects/5). 
 
 ## What this repository does
 
@@ -8,7 +8,7 @@ This repository contains (1) Markdown files and (2) a GitHub Actions workflow de
 
 ## What this repository is
 
-The content of the flashcards defined within the Markdow files in this repository reflects the content of the official Microsoft documentation for Azure Blob Storage, which can be found here: [`https://learn.microsoft.com/azure/storage/blobs`](https://learn.microsoft.com/azure/storage/blobs/).
+The content of the flashcards defined within the Markdown files in this repository reflects the content of the official Microsoft documentation for Azure Blob Storage, which can be found here: [`https://learn.microsoft.com/azure/storage/blobs`](https://learn.microsoft.com/azure/storage/blobs/).
 
 For those familiar with Anki flashcards, and specifically the concept of tags, the way this flashcard deck is organized will be of interest to you. If you follow the above link to the Azure docs (on the desktop version of the website) you'll notice that the docs are organized hierarchically. For example, there is a section called `Overview` with a subsection named `What is Azure blob storage`. In keeping with this convention, each flashcard derived from this subsection is tagged with both `Overview` and `Overview::What-is-Azure-blob-storage`. All flashcards are tagged according to this convention. So if you want to limit your study session to a particular area of the official Microsoft documentation, you may easily do so by selecting the tag corresponding to the section or subsection that interests you.
 
@@ -32,4 +32,3 @@ This is exactly where `*-docs-as-flashcards` comes in. I've taken the documentat
 - This project leverages v2.0.0 of [`md2apkg-run`](https://github.com/asa55/md2apkg-run) to build Anki-compatible flashcard deck out of the `.md` flashcard definition files underneath the `Deck/` folder.
 - If you find these flashcards helpful and want to see more, faster, let me know
   - Once these flashcards reach a minimum level of maturity, I'll set up a donation button / Patreon page that you can use to help guide my priorities and help me keep this content aligned with the latest changes to the Microsoft docs
-  - Lastly, I don't plan on stopping with VNet docs. I'll add more flashcard decks (to other repos on my GitHub account) related to Azure and technologies within and surrounding the .NET ecosystem. Keep an eye out for these
