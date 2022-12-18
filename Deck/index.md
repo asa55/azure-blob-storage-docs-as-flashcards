@@ -1,4 +1,4 @@
-# asa55 Azure Blob Storage Docs
+# asa55 Docs as Flashcards::Azure::Storage::Blobs
 
 ##
 
