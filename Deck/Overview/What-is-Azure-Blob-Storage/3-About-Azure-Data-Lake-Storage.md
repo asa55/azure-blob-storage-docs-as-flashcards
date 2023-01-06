@@ -10,14 +10,16 @@ Azure Data Lake Storage Gen2
 
 Azure Data Lake Storage Gen2 offers a hierarchical file system as well as the advantages of Blob Storage, including:
 
-- `_____`
-- `_____`
-- `_____`
-- `_____`
+- Low-`_____`
+- Tiered `_____`
+- High `_____`
+- Strong `_____`
+- Disaster `_____` capabilities
 
 %
 
-- Low-cost, tiered storage
-- High availability
-- Strong consistency
-- Disaster recovery capabilities
+- Low-**cost**
+- Tiered **storage**
+- High **availability**
+- Strong **consistency**
+- Disaster **recovery** capabilities
